@@ -1,4 +1,5 @@
-import Guitarra from "./Guitarra"
+import Guitarra from "./guitarra"
+
 
 
 const ListadoGuitarras = ({data}) => {
