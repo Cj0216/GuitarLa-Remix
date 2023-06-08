@@ -57,7 +57,9 @@
     }
   }
   .header .navegacion{
+
     display: flex;
+    align-items: center;
     gap: 2rem;
     margin-top: 5rem;
   }
@@ -76,6 +78,9 @@
     font-size: 1.4rem;
     transition-property: background-color;
     transition-duration: 300ms;
+  }
+  .header .navegacion img{
+    width:3rem;
   }
   .header .navegacion a:hover,.active{
     background-color: var(--primary);
